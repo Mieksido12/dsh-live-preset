@@ -1,0 +1,5 @@
+# dsh-live-preset: one Host row. It serves the switch route, registers the
+# `/preset` command, and (through dsh.client) draws the composer chip.
+- insert:
+    - id: dsh-live-preset
+      name: dsh-live-preset

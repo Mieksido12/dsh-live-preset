@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "对话中切换 Agent 预设",
+    "description": "对话开始之后也能换 Agent 预设：输入框里点一下，或者用 /preset，不用另开一个会话。"
+  }
+}

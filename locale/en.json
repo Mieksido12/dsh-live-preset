@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Live agent preset",
+    "description": "Switch the open conversation to another Agent preset after it has started, from the composer chip or /preset, without opening a new session."
+  }
+}

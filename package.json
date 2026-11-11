@@ -1,0 +1,57 @@
+{
+  "name": "dsh-live-preset",
+  "version": "1.1.0",
+  "description": "Switch a started conversation between Agent presets: composer chip, /preset command, and an agent_preset tool.",
+  "type": "module",
+  "main": "index.js",
+  "author": {
+    "name": "奥菲斯",
+    "url": "https://github.com/Mieksido12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mieksido12/dsh-live-preset.git"
+  },
+  "homepage": "https://github.com/Mieksido12/dsh-live-preset#readme",
+  "bugs": {
+    "url": "https://github.com/Mieksido12/dsh-live-preset/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "agent-preset",
+    "preset"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/*.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

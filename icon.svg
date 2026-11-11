@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Live agent preset">
+  <rect width="64" height="64" rx="14" fill="#101827"/>
+  <rect x="12" y="14" width="40" height="10" rx="5" fill="none" stroke="#5b8cff" stroke-width="3.2"/>
+  <rect x="12" y="27.5" width="26" height="10" rx="5" fill="none" stroke="#5b8cff" stroke-width="3.2" opacity="0.72"/>
+  <path d="M37.5 47.5h13.5m0 0-4-4m4 4-4 4" fill="none" stroke="#8fd0ff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
